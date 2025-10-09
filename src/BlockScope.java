@@ -13,6 +13,8 @@ public class BlockScope {
         // outerX burada hâlâ geçerli
         System.out.println("outerX (after if): " + outerX);
         //System.out.println("innerY (after if): " + innerY);
+        //System.out.println("innerY (after if): " + innerY);
+
         // innerY burada geçerli değil → hata verir
         // System.out.println("innerY (after if): " + innerY);
     }
