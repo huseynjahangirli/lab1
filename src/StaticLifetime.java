@@ -15,8 +15,6 @@ public class StaticLifetime {
 
         obj1.incrementCounter(); // Counter: 1
         obj2.incrementCounter(); // Counter: 2 (çünkü static)
-        //
-        System.out.println("Counter: " + counter);
 
     }
 
