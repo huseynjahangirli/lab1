@@ -40,5 +40,8 @@ c) int n = 1024;
    
 ANSWER 3: We need to find the Big O notation for each code snippet.
 a. for (int i = 0; i < n; i++): This loop runs n times. The number of operations is directly proportional to n. The time complexity is O(n) (linear).
+a. \\1
 b. Nested for loops: The first loop runs n times. The second loop also runs n times for each step of the first loop. This means the operations run n×n=n2 times. The time complexity is O(n2) (quadratic).
+b. \\1+n+1+n
 c. while (n > 1): In this loop, n is divided by 2 in each step. To reach 1, you have to divide n by 2 a number of times. This number is the logarithm of n. The time complexity is O(logn) (logarithmic).
+c. \\n+n
